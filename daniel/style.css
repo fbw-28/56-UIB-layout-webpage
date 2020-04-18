@@ -12,6 +12,8 @@ html {
   box-sizing: inherit;
 }
 
+/* ##### general element settings ##### */
+
 h1 {
   font-size: 2em;
 }
@@ -44,6 +46,8 @@ body {
   grid-template: auto / 1fr 2fr;
 }
 
+/* ##### Navigation left ##### */
+
 .nav-left,
 .nav-left * {
   display: block;
@@ -71,6 +75,8 @@ body {
   color: black;
 }
 
+/* ##### content area ##### */
+
 main {
   /* position: relative; */
   font-family: "Arapey", Arial;
@@ -88,6 +94,7 @@ h2 {
 }
 
 /* ##### Page navigation #####  */
+
 .nav-bottom {
   display: flex;
   justify-content: space-around;
