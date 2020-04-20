@@ -18,6 +18,10 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+menu {
+    position: fixed;
+}
+
 li {
     list-style-type: none;
     margin: 15px auto;
@@ -46,9 +50,15 @@ h1 {
     margin-bottom: 70px;
 }
 
+p {
+    margin-top: 15px;
+}
+
 .text {
     font-size: 22px;
     line-height: 1.5;
+    overflow: scroll;
+    height: 100vh;
 }
 
 .right {
