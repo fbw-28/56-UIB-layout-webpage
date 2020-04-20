@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arapey&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    margin: 100px auto;
+    min-width: 650px;
+    max-width: 1000px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+}
+
+aside {
+    grid-column: 1/2;
+    position: fixed;
+}
+
+aside nav {
+    height: 100%;
+}
+
+aside nav h2 {
+    margin-left: 40px;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+aside nav ul {
+    margin-top: 20px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+aside nav ul li {
+    margin-bottom: 10px;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 13px;
+}
+
+main {
+    grid-column: 2/3;
+    box-shadow: 2px 5px 6px #666;
+    position: relative;
+    left: 0px;
+}
+
+main header {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+main header p {
+    font-family: 'Arapey', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: right;
+}
+
+main article {
+    font-family: 'Arapey', serif;
+    font-size: 90%;
+    line-height: 30px;
+    text-align: justify;
+    width: 100%;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    height: fit-content;
+}
+
+main a {
+    position: absolute;
+    bottom: 0px;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 2px solid #111;
+    margin: 30px;
+    transition: all 0.2s ease-in;
+}
+
+main a:hover {
+    color: #fff;
+    background: #777;
+
+}
