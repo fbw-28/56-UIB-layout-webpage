@@ -12,3 +12,4 @@ Use the text in the [text.md](./text.md) to create an informative website.
 * The menu should direct the user to the corresponding page in the journal.
 
 ![Page Style Preview](./img/preview.png)
+
