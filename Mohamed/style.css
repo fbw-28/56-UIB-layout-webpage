@@ -46,7 +46,6 @@ h1 {
 .grid-container {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    grid-template-areas:
-        'nav content';
+    grid-template-areas: 'nav content';
     grid-gap: 10px;
 }
