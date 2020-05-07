@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 27% 73%;
+    font-size: 1.5em;
+    font-family: 'Arapey', serif;
+    color: black;
+}
+
+h1 {
+    grid-column-start: 2;
+    text-align: right;
+    margin-bottom: 15vh;
+    padding: 50px 0 0 0 ;
+}
+
+ul h2 {
+    font-size: 2em;
+    margin-top: 10vh;
+    text-decoration: underline;
+    margin-bottom: 10px
+}
+
+ul {
+    position: sticky;
+    top: 5vh;
+    padding-left: 3vw;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-top: 10vh;
+    padding: 5vh 5vw 5vh 5vw;
+    box-shadow: -1px -1px 3px 1px rgba(82,81,82,0.61);
+}
+p {
+    margin-top: 20px;
+}
