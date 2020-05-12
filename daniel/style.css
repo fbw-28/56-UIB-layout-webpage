@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+html {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ##### general element settings ##### */
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+body {
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 5vw;
+  background-color: white;
+  display: grid;
+  grid-template: auto / 1fr 2fr;
+}
+
+/* ##### Navigation left ##### */
+
+.nav-left,
+.nav-left * {
+  display: block;
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+.nav-left p {
+  margin: 20px 10%;
+  font-size: 2em;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.nav-left a {
+  margin: 20px 10%;
+  color: black;
+}
+
+.nav-left a:hover,
+.nav-left a:active {
+  text-decoration: underline;
+}
+
+.nav-left a:visited {
+  color: black;
+}
+
+/* ##### content area ##### */
+
+main {
+  /* position: relative; */
+  font-family: "Arapey", Arial;
+  padding: 5%;
+  box-shadow: 3px 3px 8px lightgrey;
+  display: grid;
+  grid-template: auto / 100%;
+}
+
+h1,
+h2 {
+  width: 75%;
+  text-align: end;
+  justify-self: end;
+}
+
+/* ##### Page navigation #####  */
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bottom a {
+  margin: 20px 5%;
+  padding: 20px;
+  background-color: lightblue;
+  color: black;
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+.nav-bottom a:hover,
+.nav-bottom a:active {
+  text-decoration: underline;
+  box-shadow: 6px 6px 6px lightgray;
+}
+
+.nav-bottom a:visited {
+  color: black;
+}
